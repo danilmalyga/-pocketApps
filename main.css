@@ -1,0 +1,81 @@
+body{
+    
+    font-family: 'Comfortaa', cursive;
+    background:no-repeat url(https://content.statuecruises.com/sites/default/files/styles/hero_huge/public/images/hero/carousel/Statue%20Cruises%20-%20Statue%20of%20Liberty%20History%20-%20Aerial%20of%20Lady%20Liberty%20%26%20Manhattan%20at%20Dusk%281%29_2.jpg) fixed;
+    background-color: white;
+    background-size: 100% auto;
+}
+A:link { 
+    text-decoration: none;
+} 
+A:visited { 
+    text-decoration: none;
+    color: rgb(4, 0, 253);
+}
+A:active { text-decoration: none; }
+
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.oneCity{
+   
+    height: 40px;
+   
+}
+.searchField{
+    
+}
+
+.definitionAboutSearch{
+    
+}
+.search{
+    color: white;
+    background: none;
+    font-size: 16px;
+    padding: 10px;  
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.search:hover{
+    transition: 0.5s ease-out;
+    border-width: 1.5px;
+    border-color: rgb(0, 102, 255);
+}
+
+.ss{
+    background-color:rgba(255, 255, 0, 0.6);
+}
+
+.definition{
+    font-size: 1.5em;
+    color: rgb(255, 252, 224)
+}
+.suggestions{
+    color: rgb(4, 0, 253);
+}
+
+.placePop{
+    font-size: 0.9em;
+    border-top: 2px dotted rgb(51, 80, 243,0.5);
+    color: rgb(51, 80, 243);
+}
+
+li {
+    list-style-type: none;
+}
+
+li:before {
+    content: "⮫";
+}
+
+li:hover {
+    color: red;
+}

@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+  <html lang="en">
+  <head>
+     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    </head>
+  <body>
+  <div class="main">
+    <div class="row">
+      <div class="inputAlarm">
+        <input id = "hour" type="number" placeholder='hour'  min = 0 max = 23>
+        <input id = "minutes" type="number" placeholder='minutes'  min = 1 max = 59>
+        <input id = "seconds" type="number" placeholder='seconds' min = 1 max = 59>
+        
+      </div>
+      <p id="alarmIsSet"></p>
+      <div class="setAllarmClass"><input id = "setAlarmButton" type="button" value="Set alarm" >
+    
+       
+      </div>
+      <div class="time">
+        <p id = "time">00:00:00</p>
+      </div>
+
+      <div class="timer">
+        <input id = "timer" type="number"  min = 1 max = 59 placeholder="seconds">
+        
+        <p id="timeId"></p>
+      </div>
+      <div class="timerButton">
+        <input id = "buttonTimer" type="button" value="Countdown" >
+       
+      </div>
+      <p id="timerIsUp"></p>
+    </div>
+  </div>
+
+
+<audio data-key = "alarmSound" src="bell.wav"></audio>
+<audio id = "timerSound" src="bell.wav"></audio>
+
+<script src="alarm.js" ></script>
+<script src="timer.js" ></script>
+<script src="script.js" ></script>
+
+
+</body>
+</html>

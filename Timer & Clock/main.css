@@ -1,0 +1,87 @@
+
+body{
+    background: url(http://st.gde-fon.com/wallpapers_original/171065_chasy_fon_2560x1600_www.Gde-Fon.com.jpg);
+    background-size: 100%;
+    background-color: rgb(175, 175, 175);
+    color: white;
+    
+}
+.main{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    width: auto;
+    
+}
+
+.setAllarmClass{
+    
+    text-align: center;
+    margin-top: 10px;
+}
+.inputAlarm{
+    margin-top: 3px;
+    text-align: center;
+}
+.time{
+   
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.timer{
+    text-align: center;
+    margin-bottom: -10px;
+}
+.timerButton{
+    text-align: center;
+}
+#time{
+    margin-top: 40px;
+    font-size: 70px;
+}
+#alarmIsSet{
+     text-align: center;
+    color:white;
+}
+
+#hour{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 6px; 
+    border-bottom: 7px;
+}
+#minutes{
+    border-radius: 6px;
+}
+#seconds{
+    border-radius: 6px;
+}
+#setAlarmButton{
+    background-color: rgb(134, 226, 134);
+    border-radius: 6px;
+}
+#timer{
+    margin-top: -60px;
+    border-radius: 6px;
+}
+#buttonTimer{
+    background-color: rgb(134, 151, 226);
+    border-radius: 6px;
+}
+
+#timerIsUp{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 151, 151)
+}
+input{
+    border: none;
+    padding: 10px;
+ 
+}

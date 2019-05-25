@@ -1,0 +1,70 @@
+body{
+  font-family: 'Comfortaa', cursive;
+  background-image: url(http://www.brainscape.com/blog/wp-content/uploads/2012/09/Chess1.jpg);
+  background-color: white;
+    background-size: 100% auto;
+}
+
+.checkboxes{
+  text-align: center;
+}
+
+.main{
+  text-align: center;
+}
+
+#field{
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  height: 360px;
+  border: 1px solid black;
+}
+
+.chess-block{
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.bg-black{
+  background: #525252;
+}
+.active{
+  background-color:orange;
+  width: 43px;
+  height: 43px;
+  border: 1px solid black;
+}
+
+.selectedHorse{
+  background-image: url(http://www.freedigitalphotos.net/images/previews/knight-chess-figure-icon-100607264.jpg);
+  background-size: cover;
+}
+
+.selectedPawn{
+  background-image: url(https://previews.123rf.com/images/iconcraftstudio/iconcraftstudio1508/iconcraftstudio150802787/43469841-icon-of-chess-pawn.jpg);
+  background-size: cover;
+}
+
+.selectedBishop{
+  background-image: url(https://rfclipart.com/image/big/29-6b-33/chess-bishop-icon-Download-Royalty-free-Vector-File-EPS-144212.jpg);
+  background-size: cover;
+}
+
+.selectedRook{
+  background-image: url(https://rfclipart.com/image/big/83-62-9a/rook-chess-icon-Download-Royalty-free-Vector-File-EPS-144232.jpg);
+  background-size: cover;
+}
+
+
+
+.selectedQeen{
+  background-image: url(https://rfclipart.com/image/big/04-14-d4/queen-chess-icon-Download-Royalty-free-Vector-File-EPS-144216.jpg);
+  background-size: cover;
+}
+
+.selectedKing{
+  background-image: url(https://cdn-thumbs.freeart.com/king-chess-icon_fa27525349.jpg);
+  background-size: cover;
+}

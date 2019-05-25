@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Chess Field</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="left">
+          <h1 class="text-center">Hint for Kasparov</h1>
+
+          <form id="form">
+            <p><b>Choose a figure</b></p>
+            <p class="checkboxes">
+              <input class="figureClass" type="radio" name="figure" value="horse" />Horse<Br />
+              <input class="figureClass" type="radio" name="figure" value="pawn" />Pawn<Br />
+              <input class="figureClass" type="radio" name="figure" value="bishop" />Bishop<Br />
+              <input class="figureClass" type="radio" name="figure" value="rook" />Rook<Br />
+              <input class="figureClass" type="radio" name="figure" value="qeen" />Qeen<Br />
+              <input class="figureClass" type="radio" name="figure" value="king" />King
+            </p>
+          </form>
+
+          <div id="field"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="figuresAction.js"></script>
+  </body>
+</html>

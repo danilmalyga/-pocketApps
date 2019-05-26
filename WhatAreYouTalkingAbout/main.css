@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(0.25turn, #3f87a6, #b5b6b4, #f69d3c);
+}
+.welcomeText{
+    color: white;
+    font-size: 50px;
+}
+.write{
+    top: 40px;
+    font-size: 20px;
+}
+#main {
+    text-align: center; 
+}
+#words{
+    font-size: 50px;
+}
+p {
+    margin-top: 40px;
+    color: white; 
+}

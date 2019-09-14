@@ -60,7 +60,6 @@ function displayMatches (){
                 }
                 
             }
-            //console.log (newString);
         return newString;
     }
 
